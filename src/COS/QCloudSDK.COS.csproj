@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageLicenseUrl>https://github.com/zhengchun/qcloud-sdk-net/blob/master/LICENSE</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/zhengchun/qcloud-sdk-net.git</RepositoryUrl>
+    <Authors>ZHENGCHUN</Authors>
+    <Company />
+    <Description>腾讯云的对象存储(COS)</Description>
+    <Copyright>Copyright (c) ZHENGCHUN 2018</Copyright>
+    <PackageProjectUrl>https://github.com/zhengchun/qcloud-sdk-net/</PackageProjectUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>qcloud cos</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Net.Http" Version="4.3.3" />
+  </ItemGroup>
+
+</Project>
