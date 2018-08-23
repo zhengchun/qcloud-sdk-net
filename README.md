@@ -5,6 +5,6 @@
 
 - [COS](https://github.com/zhengchun/qcloud-sdk-net/tree/master/src/COS)
 
-
+- [Computer Vision](https://github.com/zhengchun/qcloud-sdk-net/tree/master/src/ComputerVision)
 
 
