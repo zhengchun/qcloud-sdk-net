@@ -11,10 +11,11 @@
     <PackageProjectUrl>https://github.com/zhengchun/qcloud-sdk-net/</PackageProjectUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>qcloud cos</PackageTags>
+    <Version>1.0.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="System.Net.Http" Version="4.3.3" />
+    <ProjectReference Include="..\Core\QCloud.Core.csproj" />
   </ItemGroup>
 
 </Project>

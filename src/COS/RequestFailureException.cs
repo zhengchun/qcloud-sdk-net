@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace QCloudSDK.COS
+namespace QCloud.COS
 {
     /// <summary>
     /// COS请求失败错误描述。

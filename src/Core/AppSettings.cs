@@ -1,11 +1,11 @@
 ﻿using System;
 
-namespace QCloudSDK.COS
+namespace QCloud
 {
     /// <summary>
-    /// COS密钥配置。
+    /// 腾讯云应用密钥配置。
     /// </summary>
-    public sealed class Configuration
+    public sealed class AppSettings
     {
         /// <summary>
         /// 应用ID。

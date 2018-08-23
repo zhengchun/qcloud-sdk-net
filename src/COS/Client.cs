@@ -4,7 +4,6 @@ using System.IO;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
-
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,7 +11,7 @@ using System.Web;
 using System.Xml;
 using System.Xml.XPath;
 
-namespace QCloudSDK.COS
+namespace QCloud.COS
 {
     /// <summary>
     /// COS客户端，执行COS的请求。
@@ -20,16 +19,16 @@ namespace QCloudSDK.COS
     public sealed class Client
     {
         private readonly HttpClient _backChannel;
-        private readonly Configuration _conf;
+        private readonly AppSettings _conf;
 
         private Client() { }
 
         /// <summary>
         /// 初始化新的<see cref="Client"/>实例。
         /// </summary>
-        /// <param name="conf">COS密钥配置</param>
+        /// <param name="conf">密钥配置</param>
         /// <param name="backChannel">自定义<see cref="HttpClient"/>实例。</param>
-        public Client(Configuration conf, HttpClient backChannel = null)
+        public Client(AppSettings conf, HttpClient backChannel = null)
         {
             _conf = conf;
             _backChannel = backChannel ?? new HttpClient();

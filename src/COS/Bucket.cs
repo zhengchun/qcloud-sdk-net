@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace QCloudSDK.COS
+namespace QCloud.COS
 {
     /// <summary>
     /// COS存储桶。
